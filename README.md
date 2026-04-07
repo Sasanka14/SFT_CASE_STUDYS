@@ -1,14 +1,14 @@
-# College Case Study: Axion Motors Website
+# Automobile-Brand-Website
 
-This repository contains our college case study project for a static multi-page automobile brand website.
+This repository contains the **Automobile-Brand-Website** project.
 
-## Live Project
-- Vercel URL: https://axionmotors.vercel.app/
+## Live Demo
+- https://axionmotors.vercel.app/
 
 ## Project Folder
-- Main website source: `Sasanka/Automobile-Brand-Website/`
+- `Sasanka/Automobile-Brand-Website/`
 
-## Pages Included
+## Included Pages
 - `index.html`
 - `about.html`
 - `models.html`
@@ -21,18 +21,11 @@ This repository contains our college case study project for a static multi-page 
 - CSS
 - JavaScript
 
-## Purpose
-This project is prepared for all college students as a reference case study to learn:
-- Multi-page website structure
-- Basic frontend styling and layout
-- Simple client-side scripting
-- Organizing assets (images/videos) in a real project
+## Asset Structure
+- Images: `assets/image/`
+- Videos: `assets/videos/`
 
-## Notes For Students
-1. Clone the repository.
-2. Open `Sasanka/Automobile-Brand-Website/index.html` in your browser.
-3. Explore each page and file to understand how the project is organized.
-4. Modify styles and scripts to practice your own ideas.
-
-## Author
-Prepared as a college case study project for student learning.
+## Getting Started
+1. Open `Sasanka/Automobile-Brand-Website/index.html` in a browser.
+2. Browse the remaining pages from the navigation menu.
+3. Keep the `assets/` folder inside the project directory so images and videos load correctly.
