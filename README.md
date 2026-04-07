@@ -101,7 +101,7 @@ An interactive game demonstrating physics calculations and canvas rendering.
 |--------|---------|
 | **Tech Stack** | HTML5 Canvas, CSS3, JavaScript (Physics engine) |
 | **Features** | Real-time trajectory calculation, collision detection, score tracking, responsive controls |
-| **Live Demo** | 🔗 [Available Soon](Available Soon) |
+| **Live Demo** | 🔗 [Projectile Motion Game](https://projectilemotiogame.vercel.app/) |
 | **Source Code** | 📂 [`/projectile-game`](./projectile-game) |
 | **Key Skills** | Canvas API, physics simulation, event-driven programming |
 
@@ -358,28 +358,6 @@ Implementing secure algorithms and understanding cybersecurity fundamentals.
 - *Projects*: Encryption-Decryption, Password Security System
 
 > **Why This Matters**: Engineers who understand the full stack—from browser APIs to low-level memory management to cryptographic principles—build better systems and make smarter architectural decisions.
-
----
-
-## 🚀 Future Improvements
-
-### Short-term Enhancements
-- [ ] Add unit tests and integration tests across all projects
-- [ ] Implement dark mode for web projects
-- [ ] Create Docker containerization for systems projects
-- [ ] Add API documentation (OpenAPI/Swagger)
-
-### Medium-term Goals
-- [ ] Convert projects to full-stack (add backend, databases)
-- [ ] Build a unified portfolio dashboard
-- [ ] Implement CI/CD pipelines (GitHub Actions)
-- [ ] Create interactive tutorials for each project
-
-### Long-term Vision
-- [ ] Scale web projects to microservices architecture
-- [ ] Add cloud deployment (AWS, GCP, Azure)
-- [ ] Build collaborative features (multiplayer gaming, shared exam platforms)
-- [ ] Create production-grade security implementations
 
 ---
 
