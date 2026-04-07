@@ -1,0 +1,36 @@
+# Build and project files
+build/
+*.o
+*.so
+*.dylib
+*.exe
+*.dll
+moc_*.cpp
+ui_*.h
+
+# Qt Creator
+.user
+*.autosave
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compilation
+.qmake.stash
+Makefile.Release
+Makefile.Debug

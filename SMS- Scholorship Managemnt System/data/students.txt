@@ -1,0 +1,10 @@
+1|John Doe|john.doe@email.com|450000|85|password123
+2|Jane Smith|jane.smith@email.com|380000|92|password123
+3|Ahmed Hassan|ahmed.hassan@email.com|320000|78|password123
+4|Maria Garcia|maria.garcia@email.com|550000|88|password123
+5|Raj Patel|raj.patel@email.com|290000|95|password123
+6|Emily Chen|emily.chen@email.com|410000|82|password123
+7|Michael Johnson|michael.johnson@email.com|380000|79|password123
+8|Sophia Martinez|sophia.martinez@email.com|460000|91|password123
+9|David Kumar|david.kumar@email.com|335000|86|password123
+10|Lisa Anderson|lisa.anderson@email.com|400000|80|password123

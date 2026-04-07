@@ -1,0 +1,5 @@
+1|Merit Scholarship|80|500000|75000
+2|Need-Based Scholarship|70|400000|60000
+3|STEM Excellence|85|450000|100000
+4|Minority Advancement|75|350000|50000
+5|Rural Education Support|65|300000|45000

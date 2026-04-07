@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model Details | AXION Motors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pages.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="/assets/image/fav.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <span class="year">1976 - Present</span>
+      <a href="/" class="logo">
+        <img src="/assets/image/logo.png" alt="AXION-Motors-Logo" />
+      </a>
+      <a href="#" class="menu" onclick="toggleMenu()"></a>
+    </header>
+
+    <!-- Nav -->
+    <nav class="nav">
+      <li><a href="models.html">All Models</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </nav>
+
+    <!-- Page Content -->
+    <main class="page-content model-detail-page">
+      <div class="page-bg"></div>
+
+      <!-- Model Hero -->
+      <section class="model-hero">
+        <video class="model-hero-video" autoplay loop muted id="heroVideo">
+          <source src="./assets/videos/mclaren-1.mp4" type="video/mp4" />
+        </video>
+        <div class="model-hero-overlay"></div>
+        <div class="model-hero-content">
+          <span class="model-category">SUPERCAR</span>
+          <h1 id="modelName">765LT Spider</h1>
+          <p class="model-tagline">Uncompromising Performance. Unrivaled Thrills.</p>
+          <div class="hero-specs">
+            <div class="hero-spec">
+              <span class="spec-value" id="topSpeed">205</span>
+              <span class="spec-label">mph Top Speed</span>
+            </div>
+            <div class="hero-spec">
+              <span class="spec-value" id="horsepower">755</span>
+              <span class="spec-label">Horsepower</span>
+            </div>
+            <div class="hero-spec">
+              <span class="spec-value" id="acceleration">2.7</span>
+              <span class="spec-label">0-60 mph (s)</span>
+            </div>
+          </div>
+        </div>
+        <a href="#overview" class="scroll-indicator">
+          <i class="bi bi-chevron-down"></i>
+        </a>
+      </section>
+
+      <!-- Overview Section -->
+      <section class="model-overview" id="overview">
+        <div class="overview-content">
+          <div class="overview-text">
+            <h2>Overview</h2>
+            <p id="modelDescription">
+              The 765LT Spider represents the pinnacle of open-top supercar engineering. 
+              Born from McLaren's Longtail heritage, it delivers an exhilarating combination 
+              of lightweight construction, aerodynamic excellence, and breathtaking performance. 
+              With a 4.0-liter twin-turbocharged V8 producing 755 horsepower, this convertible 
+              masterpiece accelerates from 0-60 mph in just 2.7 seconds while the retractable 
+              hardtop lets you experience every decibel of its symphonic exhaust note.
+            </p>
+            <p>
+              Every element has been optimized for track-focused performance without 
+              sacrificing the visceral thrill of open-air driving. Carbon fiber construction, 
+              active aerodynamics, and race-derived suspension ensure that the 765LT Spider 
+              is as capable on the circuit as it is breathtaking on the open road.
+            </p>
+          </div>
+          <div class="overview-image">
+            <img src="./assets/image/mclaren-1.jpg" alt="765LT Spider" id="overviewImage" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Specifications Section -->
+      <section class="model-specifications">
+        <h2>Technical <span>Specifications</span></h2>
+        <div class="specs-grid">
+          <div class="specs-category">
+            <h3><i class="bi bi-speedometer2"></i> Performance</h3>
+            <ul>
+              <li><span>Top Speed</span><span id="specTopSpeed">205 mph (330 km/h)</span></li>
+              <li><span>0-60 mph</span><span id="spec060">2.7 seconds</span></li>
+              <li><span>0-124 mph</span><span id="spec0124">7.2 seconds</span></li>
+              <li><span>Quarter Mile</span><span id="specQuarter">10.0 seconds</span></li>
+            </ul>
+          </div>
+          <div class="specs-category">
+            <h3><i class="bi bi-gear-fill"></i> Engine</h3>
+            <ul>
+              <li><span>Type</span><span id="specEngine">4.0L Twin-Turbo V8</span></li>
+              <li><span>Power</span><span id="specPower">755 hp @ 7,500 rpm</span></li>
+              <li><span>Torque</span><span id="specTorque">590 lb-ft @ 5,500 rpm</span></li>
+              <li><span>Transmission</span><span id="specTrans">7-Speed SSG</span></li>
+            </ul>
+          </div>
+          <div class="specs-category">
+            <h3><i class="bi bi-box"></i> Dimensions</h3>
+            <ul>
+              <li><span>Length</span><span id="specLength">4,606 mm</span></li>
+              <li><span>Width</span><span id="specWidth">2,098 mm</span></li>
+              <li><span>Height</span><span id="specHeight">1,198 mm</span></li>
+              <li><span>Wheelbase</span><span id="specWheelbase">2,670 mm</span></li>
+            </ul>
+          </div>
+          <div class="specs-category">
+            <h3><i class="bi bi-feather"></i> Weight & Fuel</h3>
+            <ul>
+              <li><span>Dry Weight</span><span id="specWeight">1,388 kg</span></li>
+              <li><span>Fuel Capacity</span><span id="specFuel">72 liters</span></li>
+              <li><span>Power-to-Weight</span><span id="specPTW">544 hp/ton</span></li>
+              <li><span>Cargo Space</span><span id="specCargo">150 liters</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="model-features">
+        <h2>Key <span>Features</span></h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-wind"></i>
+            </div>
+            <h3>Active Aerodynamics</h3>
+            <p>Advanced active rear wing and front splitter automatically adjust to optimize downforce and reduce drag.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-diamond"></i>
+            </div>
+            <h3>Carbon Fiber Monocoque</h3>
+            <p>Lightweight carbon fiber chassis provides exceptional rigidity and safety while minimizing weight.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-sun"></i>
+            </div>
+            <h3>Retractable Hardtop</h3>
+            <p>One-piece carbon fiber roof retracts in just 11 seconds, even while driving at speeds up to 31 mph.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-cpu"></i>
+            </div>
+            <h3>Proactive Chassis Control II</h3>
+            <p>Advanced suspension system with interconnected hydraulic dampers for optimal handling dynamics.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-disc"></i>
+            </div>
+            <h3>Carbon Ceramic Brakes</h3>
+            <p>Race-spec carbon ceramic discs provide fade-free stopping power even under the most demanding conditions.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-sliders"></i>
+            </div>
+            <h3>Variable Drift Control</h3>
+            <p>Adjustable stability system allows drivers to fine-tune oversteer characteristics to their preference.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section class="model-gallery">
+        <h2>Gallery</h2>
+        <div class="model-gallery-grid">
+          <div class="model-gallery-item">
+            <img src="./assets/image/mclaren-1.jpg" alt="765LT Spider" />
+          </div>
+          <div class="model-gallery-item">
+            <img src="./assets/image/mclaren-2.jpg" alt="765LT Spider" />
+          </div>
+          <div class="model-gallery-item">
+            <img src="./assets/image/mclaren-3.jpeg" alt="765LT Spider" />
+          </div>
+          <div class="model-gallery-item">
+            <img src="./assets/image/mclaren-4.jpeg" alt="765LT Spider" />
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="model-cta">
+        <div class="cta-content">
+          <h2>Ready to Experience the <span id="ctaModelName">765LT Spider</span>?</h2>
+          <p>Schedule a private viewing or test drive at your nearest AXION Motors showroom.</p>
+          <div class="cta-buttons">
+            <a href="contact.html" class="cta-btn primary">Schedule Test Drive</a>
+            <a href="contact.html" class="cta-btn secondary">Request Quote</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
