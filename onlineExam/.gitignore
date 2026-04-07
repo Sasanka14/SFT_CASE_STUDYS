@@ -1,0 +1,9 @@
+# Secrets
+.env
+
+# Build
+build/
+*.o
+*.out
+*.exe
+.DS_Store
