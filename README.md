@@ -367,7 +367,7 @@ This repository is primarily a portfolio, but I welcome feedback and suggestions
 
 1. **Found a bug?** → Open an issue with reproduction steps
 2. **Have an improvement?** → Fork, commit, and submit a pull request
-3. **Want to collaborate?** → Reach out at [portfolio link / email]
+3. **Want to collaborate?** → Reach out at sasankawrites.14@gmail.com
 4. **Suggestions?** → Discussions and issues are always welcome
 
 ### Code Style Guidelines
@@ -383,7 +383,7 @@ This repository is primarily a portfolio, but I welcome feedback and suggestions
 - 🌐 **Portfolio**: [sasankawrites.in](https://sasankawrites.in/)
 - 💼 **LinkedIn**: [linkedin.com/in/sasankawrites](https://linkedin.com/in/sasankawrites)
 - 🐙 **GitHub**: [github.com/Sasanka14](https://github.com/Sasanka14)
-- 📧 **Email**: [your-email@example.com]
+- 📧 **Email**: [sasankawrites.14@gmail.com](mailto:sasankawrites.14@gmail.com)
 - 🎨 **Instagram**: [@sashank.codes_](https://instagram.com/sashank.codes_)
 
 ---
@@ -411,10 +411,10 @@ You're free to fork, modify, and learn from these projects. If you find them hel
 ### 📊 Repository Stats
 
 ```
-Total Projects:     10+
+Total Project Folders: 13
 Languages:          5 (JavaScript, Python, C, C++, HTML/CSS)
-Live Deployments:   5
-Systems Built:      5
+Live Deployments:   6
+Offline / Systems Projects: 7
 Total Lines of Code: 50,000+
 ```
 
