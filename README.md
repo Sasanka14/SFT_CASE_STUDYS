@@ -114,7 +114,7 @@ A fast-paced Fruit Ninja-inspired arcade game with slicing mechanics, bombs, and
 |--------|---------|
 | **Tech Stack** | HTML5, CSS3, JavaScript, Firebase Firestore |
 | **Features** | Swipe-to-slice gameplay, particle effects, leaderboard, community posts, mobile support |
-| **Live Demo** | 🔗 [fruit-slice-arena.vercel.app](https://fruit-slice-arena.vercel.app/) |
+| **Live Demo** | 🔗 [Fruit Slice Arena](https://fruitninjaarena.vercel.app/) |
 | **Source Code** | 📂 [`/fruit-ninja`](./fruit-ninja) |
 | **Key Skills** | Canvas-style interaction, state management, Firestore integration |
 
