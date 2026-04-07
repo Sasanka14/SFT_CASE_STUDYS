@@ -187,6 +187,43 @@ body{
   background: var(--panel);
 }
 
+.preview-placeholder {
+  min-height: 300px;
+  border: 1px solid rgba(124, 196, 255, 0.25);
+  border-radius: 12px;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top right, rgba(124, 196, 255, 0.18), transparent 55%),
+    linear-gradient(145deg, rgba(13, 22, 40, 0.95), rgba(8, 14, 28, 0.95));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.preview-placeholder h3 {
+  margin: 0;
+  font-size: 1.35rem;
+  color: var(--text);
+}
+
+.preview-placeholder p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.preview-badge {
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(124, 196, 255, 0.35);
+  color: var(--accent);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 /* Legal Pages Styles */
 .legal-page {
   background: linear-gradient(135deg, #040B18 0%, #0b1626 100%);
@@ -656,6 +693,20 @@ input:focus {
   margin-top: 24px;
   padding-top: 20px;
   border-top: 1px solid rgba(124, 196, 255, 0.1);
+}
+
+.actions-fixed {
+  margin-top: 0;
+  margin-bottom: 14px;
+  padding-top: 0;
+  border-top: 0;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: linear-gradient(180deg, rgba(17, 26, 43, 0.98), rgba(17, 26, 43, 0.9));
+  border: 1px solid rgba(124, 196, 255, 0.15);
+  border-radius: 12px;
+  padding: 10px;
 }
 
 button {

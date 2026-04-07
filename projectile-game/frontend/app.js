@@ -61,14 +61,24 @@ attemptsMaxEl.textContent = attemptsMax.toString();
 resetGame(true);
 drawStatic();
 
-$("#newTargetBtn").addEventListener("click", () => {
+function bindIfExists(id, handler) {
+  const el = $(id);
+  if (el) el.addEventListener("click", handler);
+}
+
+const onNewTarget = () => {
   if (lastSim) {
     newTarget(lastSim.simulation.stats.range);
     drawStatic(lastSim);
   }
-});
-$("#shootBtn").addEventListener("click", shoot);
-$("#resetBtn").addEventListener("click", () => resetGame(false));
+};
+
+bindIfExists("#newTargetBtn", onNewTarget);
+bindIfExists("#newTargetBtnTop", onNewTarget);
+bindIfExists("#shootBtn", shoot);
+bindIfExists("#shootBtnTop", shoot);
+bindIfExists("#resetBtn", () => resetGame(false));
+bindIfExists("#resetBtnTop", () => resetGame(false));
 
 // ===== FUNCTIONS =====
 function resetGame(full=false){
