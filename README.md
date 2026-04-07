@@ -1,4 +1,4 @@
-# 🚀 Engineering Portfolio: Case Studies & Mini Projects
+# 🚀 Case Studies & Mini Projects
 
 <div align="center">
 
@@ -15,11 +15,15 @@
 
 ---
 
-## 👋 Who Am I?
+## 👋 Meet the Developer Behind the Code
 
-I'm an **aspiring software engineer** with a passion for building real systems and solving complex problems. This repository is more than just a collection of code—it's a **documented journey** of learning, experimentation, and growth across multiple programming paradigms.
+Hey! I'm **Sasanka** 👋 — a computer science student and aspiring software engineer who enjoys building practical, well-structured applications that solve real-world problems.
+
+I work with **JavaScript, TypeScript, React, and Next.js**, and I'm building strength in **full-stack development, data structures, and system thinking**, with experience in **Python, Java, and AI/ML**. This repository is more than just a collection of code—it's a **documented journey** of learning, experimentation, and growth across multiple programming paradigms.
 
 From crafting responsive web interfaces to architecting low-level systems in C, every project here represents a deliberate step toward becoming a well-rounded engineer who understands the full technology stack.
+
+**Outside of coding**, I enjoy **gaming 🎮, planning new projects 📋, and watching anime 🎌**.
 
 ---
 
