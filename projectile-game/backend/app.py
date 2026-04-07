@@ -5,9 +5,10 @@ Flask API exposing projectile engine.
 Serves JSON only. Frontend is a separate static site.
 """
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory, abort
 from flask_cors import CORS
 from functools import lru_cache
+from pathlib import Path
 
 try:
     from .engine import simulate, evaluate_hit, PhysicsConfig
@@ -16,6 +17,8 @@ except ImportError:
 
 app = Flask(__name__)
 CORS(app)  # allow frontend on a different origin during dev
+
+FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 
 # Cache simulation results for common parameters
 @lru_cache(maxsize=1024)
@@ -153,6 +156,31 @@ def health():
             "/health"            # Health check
         ]
     }), 200
+
+
+@app.route("/", methods=["GET"])
+def serve_root():
+    index_file = FRONTEND_DIR / "landing.html"
+    if not index_file.exists():
+        abort(404)
+    return send_from_directory(FRONTEND_DIR, "landing.html")
+
+
+@app.route("/<path:path>", methods=["GET"])
+def serve_frontend(path):
+    # Keep API paths owned by Flask API handlers.
+    if path.startswith("api/") or path == "api":
+        abort(404)
+
+    requested = FRONTEND_DIR / path
+    if requested.exists() and requested.is_file():
+        return send_from_directory(FRONTEND_DIR, path)
+
+    index_file = FRONTEND_DIR / "landing.html"
+    if index_file.exists():
+        return send_from_directory(FRONTEND_DIR, "landing.html")
+
+    abort(404)
 
 if __name__ == "__main__":
     # Dev server

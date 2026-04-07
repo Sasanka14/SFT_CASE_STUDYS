@@ -1,5 +1,8 @@
 // ===== CONFIG =====
-const API_BASE = "http://localhost:8000"; // Flask backend
+const API_BASE =
+  window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+    ? "http://localhost:8000"
+    : window.location.origin;
 const CANVAS_W = 960, CANVAS_H = 420;
 const PADDING = 40;
 const BONUS_ZONES = [0.5, 1.0, 1.5]; // Bonus scoring zones in meters
