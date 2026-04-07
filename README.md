@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](#license)
 [![Stars](https://img.shields.io/github/stars/Sasanka14/SFT_CASE_STUDYS_AND_MINI_PROJECTS?style=flat-square&logo=github)](https://github.com/Sasanka14/SFT_CASE_STUDYS_AND_MINI_PROJECTS)
 
-**A curated collection of 10+ engineering projects spanning web development, systems programming, security, and application design.**
+**A curated collection of 13 engineering project folders spanning web development, systems programming, security, and application design.**
 
 </div>
 
@@ -30,8 +30,8 @@ From crafting responsive web interfaces to architecting low-level systems in C, 
 ## 📋 What's Inside?
 
 This portfolio showcases:
-- ✅ **5 Full-Stack Web Projects** with live deployments
-- ✅ **5 Systems & Application Projects** with videos, screenshots, and sample output
+- ✅ **13 project folders** across web, systems, security, and utilities
+- ✅ **Live demos** where available, with videos and screenshots for offline projects
 - ✅ **Real-world problem solving** across domains
 - ✅ **Clean code practices** and architectural thinking
 - ✅ **Learning documented** through code and demos
@@ -62,7 +62,7 @@ A modern, fully responsive travel booking website built with Bootstrap framework
 |--------|---------|
 | **Tech Stack** | HTML5, CSS3, Bootstrap, JavaScript |
 | **Features** | Card layouts, hero sections, booking forms, mobile-optimized |
-| **Live Demo** | 🔗 [LIVE_TRAVEL_DEMO](https://travel-website-demo.vercel.app/) |
+| **Live Demo** | 🔗 [LIVE_TRAVEL_DEMO](https://indianodyssey.vercel.app/) |
 | **Source Code** | 📂 [`/Travel-Website-Using-Bootstrap`](./Travel-Website-Using-Bootstrap) |
 | **Key Skills** | Bootstrap framework, responsive grid system, component design |
 
@@ -75,7 +75,7 @@ A pixel-perfect clone of Spotify's interface with playlist management and player
 |--------|---------|
 | **Tech Stack** | HTML5, CSS3, JavaScript (ES6+) |
 | **Features** | Dynamic playlist switching, player controls, responsive sidebar, album artwork |
-| **Live Demo** | 🔗 [LIVE_SPOTIFY_CLONE](https://spotify-clone-demo.vercel.app/) |
+| **Live Demo** | 🔗 [Available Soon](Aviable Soon) |
 | **Source Code** | 📂 [`/spotify-clone`](./spotify-clone) |
 | **Key Skills** | JavaScript event handling, CSS flexbox/grid, DOM manipulation |
 
@@ -88,7 +88,7 @@ A real-time regular expression testing and learning platform.
 |--------|---------|
 | **Tech Stack** | HTML5, CSS3, JavaScript (RegExp API) |
 | **Features** | Real-time pattern matching, syntax highlighting, regex cheatsheet, test string evaluation |
-| **Live Demo** | 🔗 [LIVE_REGEX_DEMO](https://regex-tester-demo.vercel.app/) |
+| **Live Demo** | 🔗 [LIVE_REGEX_DEMO](https://regesxx.vercel.app/) |
 | **Source Code** | 📂 [`/regex-tester`](./regex-tester) |
 | **Key Skills** | Regular expressions, string manipulation, interactive UI design |
 
@@ -101,16 +101,29 @@ An interactive game demonstrating physics calculations and canvas rendering.
 |--------|---------|
 | **Tech Stack** | HTML5 Canvas, CSS3, JavaScript (Physics engine) |
 | **Features** | Real-time trajectory calculation, collision detection, score tracking, responsive controls |
-| **Live Demo** | 🔗 [LIVE_GAME_DEMO](https://projectile-game-demo.vercel.app/) |
+| **Live Demo** | 🔗 [Available Soon](Available Soon) |
 | **Source Code** | 📂 [`/projectile-game`](./projectile-game) |
 | **Key Skills** | Canvas API, physics simulation, event-driven programming |
 
 ---
 
+#### 6. **Fruit Slice Arena** — Browser Arcade Game
+A fast-paced Fruit Ninja-inspired arcade game with slicing mechanics, bombs, and score tracking.
+
+| Aspect | Details |
+|--------|---------|
+| **Tech Stack** | HTML5, CSS3, JavaScript, Firebase Firestore |
+| **Features** | Swipe-to-slice gameplay, particle effects, leaderboard, community posts, mobile support |
+| **Live Demo** | 🔗 [fruit-slice-arena.vercel.app](https://fruit-slice-arena.vercel.app/) |
+| **Source Code** | 📂 [`/fruit-ninja`](./fruit-ninja) |
+| **Key Skills** | Canvas-style interaction, state management, Firestore integration |
+
+---
+
 ### 💻 Systems & Application Projects
 
-#### 6. **Bank Management System** — C Console Application
-A comprehensive banking system demonstrating core data structures and file I/O.
+#### 7. **Bank Management System** — C Console Application
+A secure banking system demonstrating file I/O, account management, and SHA-256 PIN protection.
 
 ```
 📊 PROJECT SNAPSHOT
@@ -124,14 +137,36 @@ A comprehensive banking system demonstrating core data structures and file I/O.
 |--------|---------|
 | **Features** | Create accounts, deposits/withdrawals, balance inquiry, transaction history |
 | **Demo Format** | 🎥 [DEMO_VIDEO_LINK](https://youtube.com/BANK_SYSTEM_DEMO) |
-| **Sample Output** | 📸 [Terminal Output Screenshot](./Bank\ Management\ System/outputs/demo.txt) |
+| **Sample Output** | 📸 [Terminal Output Screenshot](./Bank%20Management%20System/outputs/demo.txt) |
 | **Run Instructions** | `gcc bank.c -o bank && ./bank` |
-| **Source Code** | 📂 [`/Bank Management System`](./Bank\ Management\ System) |
+| **Source Code** | 📂 [`/Bank-Management-System`](./Bank-Management-System) |
 | **Key Concepts** | Data structures, file persistence, state management |
 
 ---
 
-#### 7. **Online Exam System** — C++ GUI Application
+#### 8. **Bank Management System - GUI** — C Banking Variant
+An alternate banking implementation that expands the banking system folder set with additional UI-oriented materials.
+
+```
+🏦 PROJECT SNAPSHOT
+├── Language: C
+├── Paradigm: Procedural / UI Variant
+├── Core Features: Account operations, transaction flow, interface-focused version
+└── What It Teaches: Variation in implementation, structured account workflows
+```
+
+| Aspect | Details |
+|--------|---------|
+| **Features** | Account management, deposits/withdrawals, balance tracking, alternate banking workflow |
+| **Demo Format** | 🎥 [DEMO_VIDEO_LINK](https://youtube.com/BANK_GUI_DEMO) |
+| **Screenshots** | 📸 [SCREENSHOT_PATH](./Bank%20Management%20System%20-%20GUI/SCREENSHOT_PATH) |
+| **Run Instructions** | `gcc bank.c -o bank && ./bank` |
+| **Source Code** | 📂 [`/Bank Management System - GUI`](./Bank%20Management%20System%20-%20GUI) |
+| **Key Concepts** | UI-oriented workflow, file handling, banking logic |
+
+---
+
+#### 9. **Online Exam System** — C++ GUI Application
 A desktop exam platform with timer, question navigation, and result generation.
 
 ```
@@ -146,14 +181,14 @@ A desktop exam platform with timer, question navigation, and result generation.
 |--------|---------|
 | **Features** | Timed assessments, MCQ evaluation, instant results, admin panel, question bank management |
 | **Demo Format** | 🎥 [DEMO_VIDEO_LINK](https://youtube.com/EXAM_SYSTEM_DEMO) |
-| **Screenshots** | 📸 [GUI_SCREENSHOT_1](./Online\ Exam\ System/screenshots/main.png) • [GUI_SCREENSHOT_2](./Online\ Exam\ System/screenshots/results.png) |
+| **Screenshots** | 📸 [GUI_SCREENSHOT_1](./Online%20Exam%20System/screenshots/main.png) • [GUI_SCREENSHOT_2](./Online%20Exam%20System/screenshots/results.png) |
 | **Run Instructions** | `g++ -std=c++17 exam.cpp -o exam && ./exam` |
 | **Source Code** | 📂 [`/onlineExam`](./onlineExam) |
 | **Key Concepts** | Class design, GUI paradigms, question serialization, scoring algorithms |
 
 ---
 
-#### 8. **Scholarship Management System** — C++ Desktop Application
+#### 10. **Scholarship Management System** — C++ Desktop Application
 An institutional system for managing student scholarships, eligibility, and disbursements.
 
 ```
@@ -167,14 +202,14 @@ An institutional system for managing student scholarships, eligibility, and disb
 | Aspect | Details |
 |--------|---------|
 | **Features** | Student data management, eligibility criteria matching, disbursement tracking, report generation |
-| **Screenshots** | 📸 [Interface_1](./SMS-\ Scholorship\ Managemnt\ System/screenshots/dashboard.png) • [Interface_2](./SMS-\ Scholorship\ Managemnt\ System/screenshots/records.png) |
+| **Screenshots** | 📸 [Interface_1](./SMS-%20Scholorship%20Managemnt%20System/screenshots/dashboard.png) • [Interface_2](./SMS-%20Scholorship%20Managemnt%20System/screenshots/records.png) |
 | **How to Run** | `g++ -std=c++17 scholarship.cpp -o scholarship && ./scholarship` |
-| **Source Code** | 📂 [`/SMS- Scholorship Managemnt System`](./SMS-\ Scholorship\ Managemnt\ System) |
+| **Source Code** | 📂 [`/SMS- Scholorship Managemnt System`](./SMS-%20Scholorship%20Managemnt%20System) |
 | **Key Concepts** | Object-oriented architecture, data validation, report generation |
 
 ---
 
-#### 9. **Encryption-Decryption System** — Python Cryptography
+#### 11. **Encryption-Decryption System** — Python Cryptography
 A comprehensive encryption toolkit demonstrating cryptographic algorithms and secure data handling.
 
 ```
@@ -196,7 +231,7 @@ A comprehensive encryption toolkit demonstrating cryptographic algorithms and se
 
 ---
 
-#### 10. **Password Security System** — Python Security Analysis
+#### 12. **Password Security System** — Python Security Analysis
 An advanced password strength evaluator and security auditor with breach detection.
 
 ```
@@ -214,8 +249,30 @@ An advanced password strength evaluator and security auditor with breach detecti
 | **Sample Output** | 📊 Strength reports with visualizations and recommendations |
 | **Run Instructions** | `python3 password_checker.py` |
 | **Logs & Output** | 📂 See [`/logs`](./Encription-Decription/logs) for execution samples |
-| **Source Code** | 📂 [`/Encription-Decription`](./Encription-Decription) |
+| **Source Code** | 📂 [`/password-security-system`](./password-security-system) |
 | **Key Concepts** | Password cryptography, entropy, API design, security analytics |
+
+---
+
+#### 13. **DB File Management** — Shell Scripting Utility
+A Linux/macOS shell scripting project that automates database configuration file updates with backups and logging.
+
+```
+🧰 PROJECT SNAPSHOT
+├── Language: Shell Script
+├── Paradigm: Automation / File Operations
+├── Core Features: Config updates, backups, logging, preview, cleanup
+└── What It Teaches: Shell automation, environment scripting, safe file handling
+```
+
+| Aspect | Details |
+|--------|---------|
+| **Features** | Replacing credentials, inserting backup values, deleting obsolete entries, logging actions |
+| **Demo Format** | 🎥 [DEMO_VIDEO_LINK](https://youtube.com/DB_FILE_MANAGEMENT_DEMO) |
+| **Sample Output** | 📸 [SCREENSHOT_PATH](./DB%20File%20%20Management/update_log.txt) |
+| **Run Instructions** | `chmod +x db_config_update.sh && ./db_config_update.sh` |
+| **Source Code** | 📂 [`/DB File  Management`](./DB%20File%20%20Management) |
+| **Key Concepts** | Shell scripting, file updates, configuration management, backups |
 
 ---
 
