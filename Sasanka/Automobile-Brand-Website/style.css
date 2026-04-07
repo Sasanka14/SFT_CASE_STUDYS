@@ -72,7 +72,7 @@ header::after {
   height: 30px;
   width: 30px;
   cursor: pointer;
-  background: url(/assets/image/menu-3-fill.png) no-repeat;
+  background: url(./assets/image/menu-3-fill.png) no-repeat;
   background-size: 30px;
   background-position: center;
   filter: invert(1);
@@ -83,7 +83,7 @@ header::after {
   height: 30px;
   width: 30px;
   cursor: pointer;
-  background: url(/assets/image/close-line.png) no-repeat;
+  background: url(./assets/image/close-line.png) no-repeat;
   background-size: 30px;
   background-position: center;
   filter: invert(1);
