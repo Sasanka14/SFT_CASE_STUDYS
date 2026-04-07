@@ -13,10 +13,3 @@ node_modules/
 
 # Logs
 *.log
-
-# Large media (optional but recommended)
-*.mp4
-
-# Docs (optional)
-*.pdf
-*.pptx

@@ -1,6 +1,0 @@
-numpy
-matplotlib
-jupyter
-flask
-flask-cors
-numpy
