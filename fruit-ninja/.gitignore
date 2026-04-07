@@ -1,0 +1,15 @@
+# Source files (readable/unminified) — keep local only
+_src/
+
+# Build tools
+node_modules/
+build.sh
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
