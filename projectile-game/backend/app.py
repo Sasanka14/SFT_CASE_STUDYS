@@ -7,8 +7,12 @@ Serves JSON only. Frontend is a separate static site.
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from engine import simulate, evaluate_hit, PhysicsConfig
 from functools import lru_cache
+
+try:
+    from .engine import simulate, evaluate_hit, PhysicsConfig
+except ImportError:
+    from engine import simulate, evaluate_hit, PhysicsConfig
 
 app = Flask(__name__)
 CORS(app)  # allow frontend on a different origin during dev
