@@ -1,0 +1,50 @@
+how to learn c++,1200
+c++ beginner tutorial,1100
+c++ interview questions,1300
+data structures roadmap,1600
+algorithm practice questions,1500
+competitive programming tips,900
+react tutorial for beginners,1400
+next js portfolio project,950
+full stack web development roadmap,1700
+node js backend guide,1450
+mongodb tutorial for beginners,1250
+javascript interview questions,1550
+html css projects for beginners,1350
+best laptop under 50000,2500
+best programming language to learn,2000
+how to build a website,1800
+how to earn money online,3000
+how to lose belly fat,2200
+gym workout plan for beginners,2100
+morning workout routine,1900
+weather mumbai today,4000
+weather kolkata today,3500
+cricket score today,5000
+ipl match schedule,4200
+news today india,3800
+latest tech news,2700
+artificial intelligence basics,1600
+machine learning roadmap,1500
+deep learning tutorial,1400
+python vs c++,1300
+java vs javascript difference,1200
+top 10 coding projects,1100
+best coding platforms,1000
+leetcode practice questions,950
+codeforces rating tips,900
+github portfolio ideas,850
+how to host website free,800
+firebase tutorial,750
+express js tutorial,700
+api development guide,650
+system design basics,1200
+microservices architecture guide,1100
+docker tutorial,1000
+aws beginner guide,950
+devops roadmap,900
+cyber security basics,850
+ethical hacking tutorial,800
+sql interview questions,1300
+nosql vs sql difference,1200
+database design basics,1100
