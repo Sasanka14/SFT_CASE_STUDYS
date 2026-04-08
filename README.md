@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](#license)
 [![Stars](https://img.shields.io/github/stars/Sasanka14/SFT_CASE_STUDYS_AND_MINI_PROJECTS?style=flat-square&logo=github)](https://github.com/Sasanka14/SFT_CASE_STUDYS_AND_MINI_PROJECTS)
 
-**A curated collection of 13 engineering project folders spanning web development, systems programming, security, and application design.**
+**A curated collection of 14 engineering project folders spanning web development, systems programming, security, and application design.**
 
 </div>
 
@@ -30,7 +30,7 @@ From crafting responsive web interfaces to architecting low-level systems in C, 
 ## 📋 What's Inside?
 
 This portfolio showcases:
-- ✅ **13 project folders** across web, systems, security, and utilities
+- ✅ **14 project folders** across web, systems, security, and utilities
 - ✅ **Live demos** where available, with videos and screenshots for offline projects
 - ✅ **Real-world problem solving** across domains
 - ✅ **Clean code practices** and architectural thinking
@@ -276,6 +276,27 @@ A Linux/macOS shell scripting project that automates database configuration file
 
 ---
 
+#### 14. **SearchCraft** — C++ Autocomplete Engine
+A smart autocomplete system that combines prefix, substring, and fuzzy matching to generate ranked search suggestions.
+
+```
+🔎 PROJECT SNAPSHOT
+├── Language: C++
+├── Paradigm: Algorithmic / Search Systems
+├── Core Features: Prefix search, substring fallback, fuzzy matching, ranking
+└── What It Teaches: Binary search, edit distance, relevance ranking
+```
+
+| Aspect | Details |
+|--------|---------|
+| **Features** | Prefix-based lookup, typo tolerance, frequency-based ranking, case-insensitive search |
+| **Demo Format** | 📸 [Sample Output](./SearchCraft/output.png) |
+| **Run Instructions** | `g++ -std=c++17 app.cpp -o app && ./app` |
+| **Source Code** | 📂 [`/SearchCraft`](./SearchCraft) |
+| **Key Concepts** | Binary search, fuzzy matching, ranking heuristics, search UX |
+
+---
+
 ## 🛠 Tech Stack Overview
 
 ### **Languages Mastered**
@@ -411,13 +432,13 @@ You're free to fork, modify, and learn from these projects. If you find them hel
 ### 📊 Repository Stats
 
 ```
-Total Project Folders: 13
+Total Project Folders: 14
 Languages:          5 (JavaScript, Python, C, C++, HTML/CSS)
 Live Deployments:   6
-Offline / Systems Projects: 7
+Offline / Systems Projects: 8
 Total Lines of Code: 50,000+
 ```
 
 ---
 
-*Last Updated: April 8, 2026*
+*Last Updated: April 9, 2026*
